@@ -9,7 +9,6 @@ user-files
 server-files
 test-user-files
 test-server-files
-fly.toml
 build/
 *.crt
 *.pem
