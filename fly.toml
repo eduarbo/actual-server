@@ -2,6 +2,8 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
+app = "eduarbo-actual-server"
+
 [experimental]
   cmd = ['node', '--max-old-space-size=180', 'app.js']
   auto_rollback = true
